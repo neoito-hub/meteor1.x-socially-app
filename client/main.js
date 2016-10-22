@@ -1,7 +1,7 @@
 import angular from 'angular'
 import angularMeteor from 'angular-meteor'
 
-angular.module('socially',[
+angular.module('sociallyn',[
 	angularMeteor
 ])
 .controller('PartiesListCtrl',function($scope, $reactive){
@@ -32,7 +32,7 @@ angular.module('socially',[
 		}
 	})
 })
-.component('partiesList', {
+.component('partiesList1', {
 	templateUrl: 'client/partiesList.html',
 	controllerAs: 'partiesList',
 	controller($scope, $reactive){
@@ -45,3 +45,12 @@ angular.module('socially',[
 		})
 	}
 })
+
+
+// import { name as PartiesList } from '../imports/ui/components/partiesList/partiesList'
+// angular.module('socially_es6', [
+//   angularMeteor,
+//   PartiesList
+// ]);
+
+import { namexasdsa as Sociallyx6 } from '../imports/ui/components/socially/socially';
